@@ -80,3 +80,11 @@
 \contentsline {chapter}{\numberline {附录 C\hspace {.3em}}从 CJK--\LaTeX 转向 \XeTeX }{25}{appendix.C}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {附录 D\hspace {.3em}}模板更新记录}{27}{appendix.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}谢}{29}{appendix*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{攻读学位期间发表的学术论文}{31}{appendix*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{攻读学位期间申请的专利}{33}{appendix*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{攻读学位期间参与的项目}{35}{appendix*.10}

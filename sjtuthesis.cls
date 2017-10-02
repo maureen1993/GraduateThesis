@@ -263,25 +263,28 @@
         \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@coadvisor\end{CJKfilltwosides} & \underline{\makebox[150pt]{}} \\ 
       \fi
     \else
-      \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@author\end{CJKfilltwosides}	& \underline{\makebox[150pt]{\sjtu@value@author}} \\
-      \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@studentnumber\end{CJKfilltwosides} & \underline{\makebox[150pt]{\sjtu@value@studentnumber}} \\
-      \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@advisor\end{CJKfilltwosides} 	 & \underline{\makebox[150pt]{\sjtu@value@advisor}} \\ 
+      \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@school\end{CJKfilltwosides}  &{\makebox[150pt]{\sjtu@value@school}} \\
+      \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@institute\end{CJKfilltwosides}  &{\makebox[150pt]{\sjtu@value@institute}} \\
+      \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@major\end{CJKfilltwosides} 	 &{\makebox[150pt]{\sjtu@value@major}} \\
+      \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@author\end{CJKfilltwosides}	& {\makebox[150pt]{\sjtu@value@author}} \\
+      \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@studentnumber\end{CJKfilltwosides} & {\makebox[150pt]{\sjtu@value@studentnumber}} \\
+      \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@advisor\end{CJKfilltwosides} 	 & {\makebox[150pt]{\sjtu@value@advisor}} \\ 
       \ifx\sjtu@value@coadvisor\undefined\else
-        \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@coadvisor\end{CJKfilltwosides} 	 & \underline{\makebox[150pt]{\sjtu@value@coadvisor}} \\ 
+        \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@coadvisor\end{CJKfilltwosides} 	 & \underline{\makebox[150pt]{\sjtu@value@coadvisor}} \\ 
       \fi
     \fi
-      \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@major\end{CJKfilltwosides} 	 & \underline{\makebox[150pt]{\sjtu@value@major}} \\
-      \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@defenddate\end{CJKfilltwosides} 	 & \underline{\makebox[150pt]{\sjtu@value@defenddate}}
+      \begin{CJKfilltwosides}{6em}\heiti\sjtu@label@defenddate\end{CJKfilltwosides} 	 &{\makebox[150pt]{\sjtu@value@defenddate}}
   \end{tabular}
   \end{center}
   \vskip \stretch{0.5}
-  \cleardoublepage
+  %\cleardoublepage
 }
 
 
 % English Title Page
 \newcommand\englishtitle[1]{\def\sjtu@value@englishtitle{#1}}
 \newcommand\englishauthor[1]{\def\sjtu@value@englishauthor{#1}}
+\newcommand\englishspecialty[1]{\def\sjtu@value@englishspecialty{#1}}
 \newcommand\englishadvisor[1]{\def\sjtu@value@englishadvisor{#1}}
 \newcommand\englishcoadvisor[1]{\def\sjtu@value@englishcoadvisor{#1}}
 \newcommand\englishschool[1]{\def\sjtu@value@englishschool{#1}}
@@ -291,7 +294,7 @@
 \newcommand\englishmajor[1]{\def\sjtu@value@englishmajor{#1}}
 % "绘制"英文标题页
 \newcommand\makeenglishtitle[1]{%
-  \cleardoublepage
+  \clearpage
   \thispagestyle{empty}
   \begin{center}
       {\normalfont\zihao{4} \sjtu@label@englishstatement} 
@@ -301,23 +304,26 @@
     \ifsjtu@review
       \vskip \stretch{1}
       \vskip 3pt
-      \vskip \stretch{2}
-    \else
-      {\normalfont\zihao{4}\sjtu@value@englishauthor} 
       \vskip \stretch{1}
-      {\normalfont\zihao{4}\sjtu@label@englishadvisor} 
-      \vskip 2pt
-      {\normalfont\zihao{4}\sjtu@value@englishadvisor} 
+    \else
+      {\normalfont\zihao{4}\sjtu@label@englishauthor} {\normalfont\zihao{4}\sjtu@value@englishauthor} 
       \vskip 5pt
+      {\normalfont\zihao{4}\sjtu@label@englishspecialty} {\normalfont\zihao{4}\sjtu@value@englishspecialty} 
+      %\vskip \stretch{1}
+      \vskip 5pt
+      {\normalfont\zihao{4}\sjtu@label@englishadvisor} {\normalfont\zihao{4}\sjtu@value@englishadvisor} 
+      \vskip \stretch{1}
       \ifx\sjtu@value@englishcoadvisor\undefined\else
         {\normalfont\zihao{4}\sjtu@label@englishcoadvisor} 
         \vskip 2pt
         {\normalfont\zihao{4}\sjtu@value@englishcoadvisor} 
-        \vskip \stretch{2}
+        \vskip \stretch{1}
       \fi
     \fi 
-    \normalfont\sjtu@value@englishinstitute \vskip 30pt
-    \normalfont\sjtu@value@englishdate \vskip 20pt
+    \normalfont\sjtu@value@englishinstitute 
+    \vskip \stretch{1}
+    \normalfont\sjtu@value@englishdate 
+    \vskip 20pt
   \end{center}
   \cleardoublepage
 }

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.9.30)  30 SEP 2017 21:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.9.30)  1 OCT 2017 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2148,7 +2148,18 @@ Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count429
 \l__xeCJK_listings_flag_int=\count430
 )
-No file thesis.aux.
+(./thesis.aux (./tex/id.aux) (./tex/abstract.aux) (./tex/chapter01.aux)
+(./tex/chapter02.aux) (./tex/chapter03.aux) (./tex/chapter04.aux
+
+LaTeX Warning: Label `chap:faq' multiply defined.
+
+) (./tex/chapter05.aux
+
+LaTeX Warning: Label `chap:faq' multiply defined.
+
+) (./tex/summary.aux) (./tex/app_setup.aux) (./tex/app_eq.aux)
+(./tex/app_cjk.aux) (./tex/app_log.aux) (./tex/ack.aux) (./tex/pub.aux)
+(./tex/patents.aux) (./tex/projects.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -2169,6 +2180,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 27.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 27.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -2308,12 +2320,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
+
+(./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2403,17 +2414,44 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <10.53937> not available
 
 ] [2
 
-] [3
+]
+File: pdf/original.pdf Graphic file (type QTm)
+ <use  "pdf/original.pdf" >
+File: pdf/original.pdf Graphic file (type QTm)
+ <use  "pdf/original.pdf" >
+File: pdf/original.pdf Graphic file (type QTm)
 
-] [4
+<use  "pdf/original.pdf"  page1>
+File: pdf/original.pdf Graphic file (type QTm)
+ <use  "pdf/original.pdf"  page1>
+File: pdf/original.pdf Graphic file (type QTm)
 
-] [5
+<use  "pdf/original.pdf"  page1>
+File: pdf/original.pdf Graphic file (type QTm)
+ <use  "pdf/original.pdf"  page1>
+File: pdf/original.pdf Graphic file (type QTm)
 
-] [6
+<use  "pdf/original.pdf"  page1> [3
 
-] [7
+]
+File: pdf/authorization.pdf Graphic file (type QTm)
+ <use  "pdf/authorization.pdf" >
+File: pdf/authorization.pdf Graphic file (type QTm)
 
-] [8
+<use  "pdf/authorization.pdf" >
+File: pdf/authorization.pdf Graphic file (type QTm)
+ <use  "pdf/authorization.pdf"  page1>
+File: pdf/authorization.pdf Graphic file (type QTm)
+
+<use  "pdf/authorization.pdf"  page1>
+File: pdf/authorization.pdf Graphic file (type QTm)
+ <use  "pdf/authorization.pdf"  page1>
+File: pdf/authorization.pdf Graphic file (type QTm)
+
+<use  "pdf/authorization.pdf"  page1>
+File: pdf/authorization.pdf Graphic file (type QTm)
+ <use  "pdf/authorization.pdf"  page1>
+[4
 
 ]
 \openout2 = `tex/abstract.aux'.
@@ -2437,25 +2475,26 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <10.53937> not available
 
 
 
+
 ] [2]) [3
 
 ] [4
 
 
-]
+] (./thesis.toc [5])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [5] [6
-
-]
+ [6] (./thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
-[7] [8
+[7
 
-]
+] [8
+
+] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
@@ -2608,11 +2647,7 @@ Missing character: There is no ─ in font [lmmono9-regular]:!
 Missing character: There is no └ in font [lmmono9-regular]:!
 Missing character: There is no ─ in font [lmmono9-regular]:!
 Missing character: There is no ─ in font [lmmono9-regular]:!
- [2] [3]
-
-LaTeX Warning: Reference `chap:example' on page 4 undefined on input line 158.
-
-) [4]
+ [2] [3]) [4]
 \openout2 = `tex/chapter02.aux'.
 
  (./tex/chapter02.tex
@@ -2622,50 +2657,21 @@ LaTeX Warning: Reference `chap:example' on page 4 undefined on input line 158.
 
 
 ]
-
-LaTeX Warning: Reference `thm:res' on page 6 undefined on input line 81.
-
-
-LaTeX Warning: Reference `fig:SRR' on page 6 undefined on input line 108.
-
 File: figure/chap2/sjtulogo.png Graphic file (type QTm)
-<use  "figure/chap2/sjtulogo.png" >
+ <use  "figure/chap2/sjtulogo.png" >
 File: figure/chap2/sjtulogo.jpg Graphic file (type QTm)
  <use  "figure/chap2/sjtulogo.jpg" >
-
-LaTeX Warning: Reference `fig:epspdf:a' on page 6 undefined on input line 119.
-
-
-LaTeX Warning: Reference `fig:epspdf:b' on page 6 undefined on input line 119.
-
 File: figure/chap2/sjtulogo.eps Graphic file (type eps)
+
 <figure/chap2/sjtulogo.eps>
 File: figure/chap2/sjtulogo.pdf Graphic file (type QTm)
  <use  "figure/chap2/sjtulogo.pdf" >
-
-LaTeX Warning: Reference `fig:longcaptionbad' on page 6 undefined on input line
- 138.
-
-
-LaTeX Warning: Reference `fig:longcaptiongood' on page 6 undefined on input lin
-e 138.
-
-
-LaTeX Warning: Reference `fig:longcaptiongood' on page 6 undefined on input lin
-e 138.
-
 File: figure/chap2/sjtulogo.pdf Graphic file (type QTm)
+
 <use  "figure/chap2/sjtulogo.pdf" >
 File: figure/chap2/sjtulogo.pdf Graphic file (type QTm)
  <use  "figure/chap2/sjtulogo.pdf" >
 [6] [7] [8]
-
-LaTeX Warning: Reference `tab:firstone' on page 9 undefined on input line 162.
-
-
-LaTeX Warning: Reference `tab:footnote' on page 9 undefined on input line 179.
-
-
 Overfull \hbox (1.66736pt too wide) in paragraph at lines 187--187
 []|\TU/texgyretermes(0)/m/n/10.53937 total|  
  []
@@ -2752,13 +2758,10 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-
-LaTeX Warning: Reference `algo:sum_I_want' on page 11 undefined on input line 2
-98.
-
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 301.
-) [11] [12]
+) [11]
+[12]
 \openout2 = `tex/chapter03.aux'.
 
  (./tex/chapter03.tex
@@ -2881,9 +2884,6 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <15.05624> not available
 (Font)              size <14.4> substituted on input line 2.
 
-
-LaTeX Warning: Reference `sec:process' on page 25 undefined on input line 30.
-
 ) [25]
 \openout2 = `tex/app_log.aux'.
 
@@ -2900,17 +2900,42 @@ LaTeX Warning: Reference `sec:process' on page 25 undefined on input line 30.
 
 LaTeX Warning: Empty bibliography on input line 91.
 
+\openout2 = `tex/ack.aux'.
 
-Package lastpage Warning: Rerun to get the references right on input line 105.
+(./tex/ack.tex) [29
 
 
+]
+\openout2 = `tex/pub.aux'.
+
+ (./tex/pub.tex [30
+
+
+
+]) [31]
+\openout2 = `tex/patents.aux'.
+
+ (./tex/patents.tex [32
+
+
+
+])
+[33]
+\openout2 = `tex/projects.aux'.
+
+ (./tex/projects.tex [34
+
+
+
+]) [35] 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
 (./thesis.aux (./tex/id.aux) (./tex/abstract.aux) (./tex/chapter01.aux)
 (./tex/chapter02.aux) (./tex/chapter03.aux) (./tex/chapter04.aux)
 (./tex/chapter05.aux) (./tex/summary.aux) (./tex/app_setup.aux)
-(./tex/app_eq.aux) (./tex/app_cjk.aux) (./tex/app_log.aux))
+(./tex/app_eq.aux) (./tex/app_cjk.aux) (./tex/app_log.aux) (./tex/ack.aux)
+(./tex/pub.aux) (./tex/patents.aux) (./tex/projects.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 105.
 
@@ -2922,7 +2947,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2934,12 +2959,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39344 strings out of 493005
- 754765 string characters out of 6134596
- 1226140 words of memory out of 5000000
- 42716 multiletter control sequences out of 15000+600000
- 30551 words of font info for 173 fonts, out of 8000000 for 9000
+ 39376 strings out of 493005
+ 751464 string characters out of 6134596
+ 1272143 words of memory out of 5000000
+ 42679 multiletter control sequences out of 15000+600000
+ 27795 words of font info for 162 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,17n,80p,10440b,3426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,80p,10440b,3426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (46 pages).
+Output written on thesis.pdf (49 pages).
